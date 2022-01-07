@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Playable Guitar || Guitar Game || Pigeon Coder</title>
+
+    <link rel="stylesheet" href="guitar.css">
+    <script src="guitar.js"></script>
+</head>
+<body>
+
+    <h2>Click Red String to Listen</h2>
+
+    <div class="soundhole"></div>
+    
+    <div class="audios">
+        <audio src="Audio/6th_String_E_64kb.mp3" id="strE"></audio>
+        <audio src="Audio/5th_String_A_64kb.mp3" id="strA"></audio>
+        <audio src="Audio/4th_String_D_64kb.mp3" id="strD"></audio>
+        <audio src="Audio/3rd_String_G_64kb.mp3" id="strG"></audio>
+        <audio src="Audio/2nd_String_B__64kb.mp3" id="strB"></audio>
+        <audio src="Audio/1st_String_E_64kb.mp3" id="stre"></audio>
+    </div>
+
+    <div class="strings">
+        <div id="E" onclick="playE()"></div>
+        <div id="A" onclick="playA()"></div>
+        <div id="D" onclick="playD()"></div>
+        <div id="G" onclick="playG()"></div>
+        <div id="B" onclick="playB()"></div>
+        <div id="e" onclick="playe()"></div>
+    </div>
+</body>
+</html>

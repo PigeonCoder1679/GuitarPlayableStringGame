@@ -1,0 +1,72 @@
+body{
+    background-color: rgba(247, 155, 18, 0.589);
+}
+
+.soundhole{
+    height: 500px;
+    width: 500px;
+    background-color: black;
+    border-radius: 100%;
+    position: absolute;
+    top: 70px;
+    right: 800px;
+}
+
+#E{
+    height: 7px;
+    width: 120%;
+    background-color: red;
+    position: absolute;
+    top: 22.5%;
+    left: -10px;
+}
+
+#A{
+    height: 7px;
+    width: 120%;
+    background-color: red;
+    position: absolute;
+    top: 32.5%;
+    left: -10px;
+}
+
+#D{
+    height: 7px;
+    width: 120%;
+    background-color: red;
+    position: absolute;
+    top: 42.5%;
+    left: -10px;
+}
+
+#G{
+    height: 7px;
+    width: 120%;
+    background-color: red;
+    position: absolute;
+    top: 52.5%;
+    left: -10px;
+}
+
+#B{
+    height: 7px;
+    width: 120%;
+    background-color: red;
+    position: absolute;
+    top: 62.5%;
+    left: -10px;
+}
+
+#e{
+    height: 7px;
+    width: 120%;
+    background-color: red;
+    position: absolute;
+    top: 72.5%;
+    left: -10px;
+}
+
+.strings:hover{
+    color: rgb(233, 146, 146);
+    cursor: pointer;
+}
